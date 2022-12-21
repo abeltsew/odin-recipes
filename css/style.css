@@ -1,0 +1,41 @@
+body {
+  background-color: antiquewhite;
+}
+
+.header {
+  text-align: center;
+}
+.imagecontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 430px;
+  width: 200px;
+}
+.imagecontainer:hover {
+  height: 450px;
+  width: 210px;
+}
+
+.image {
+  border-radius: 10% 10%;
+  height: 100%;
+  width: 100%;
+}
+.link {
+  position: fixed;
+  background-color: rgb(71, 56, 37);
+  height: 40px;
+  width: inherit;
+  text-align: center;
+  opacity: 60%;
+  margin-top: 400px;
+  color: white;
+  font-size: 30px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
